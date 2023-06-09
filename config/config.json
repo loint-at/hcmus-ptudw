@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres_loint",
+    "password": "W6Ga807X9XqDjBRgyRQZ2nkEFVGYVV5H",
+    "database": "eshopdb",
+    "host": "dpg-chl4edbhp8uej71nsdrg-a",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres_loint",
+    "password": "W6Ga807X9XqDjBRgyRQZ2nkEFVGYVV5H",
+    "database": "eshopdb",
+    "host": "dpg-chl4edbhp8uej71nsdrg-a",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres_loint",
+    "password": "W6Ga807X9XqDjBRgyRQZ2nkEFVGYVV5H",
+    "database": "eshopdb",
+    "host": "dpg-chl4edbhp8uej71nsdrg-a",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
